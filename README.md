@@ -36,3 +36,8 @@ https://arxiv.org/pdf/1912.03072.pdf
 https://github.com/riiid/ednet
 
 
+# Progress
+
+Best Score : 0.762
+
+
