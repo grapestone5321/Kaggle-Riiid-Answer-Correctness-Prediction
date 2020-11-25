@@ -27,7 +27,9 @@ Riiid’s mission through EdNet is to drive advancement of cutting-edge AI educa
 
 
 ### Paper:
-EdNet: A Large-Scale Hierarchical Dataset inEducation: https://arxiv.org/pdf/1912.03072.pdf
+EdNet: A Large-Scale Hierarchical Dataset in Education: 
+
+https://arxiv.org/pdf/1912.03072.pdf
 
 
 ### GitHub:
