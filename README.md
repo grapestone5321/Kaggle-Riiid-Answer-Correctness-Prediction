@@ -36,8 +36,39 @@ https://arxiv.org/pdf/1912.03072.pdf
 https://github.com/riiid/ednet
 
 
-# Progress
+## Progress
 
 Best Score : 0.762
+
+
+## Modeling
+
+### LGBM
+
+    import lightgbm as lgb
+
+    params = {
+        'objective': 'binary',
+        'max_bin': 700,
+        'learning_rate': 0.0175,
+        'num_leaves': 80
+    }
+
+    lgb_train = lgb.Dataset(X, y, categorical_feature = ['part', 'prior_question_had_explanation_enc'])
+    lgb_eval = lgb.Dataset(X_val, y_val, categorical_feature = ['part', 'prior_question_had_explanation_enc'], reference=lgb_train)
+
+
+
+    model = lgb.train(
+        params, lgb_train,
+        valid_sets=[lgb_train, lgb_eval],
+        verbose_eval=50,
+        num_boost_round=10000,
+        early_stopping_rounds=12
+     )
+
+### 'learning_rate': 
+    - lr: 0.0175   LB 0.753
+    - lr: 0.001    LB 
 
 
