@@ -47,8 +47,6 @@ https://classeval.wordpress.com/simulation-analysis/roc-and-precision-recall-wit
 
 -------
 
--------
-
 ## EdNet
 
 Established in 2020, EdNet is the largest publicly available dataset in the global education sector containing 130M+ interactions from 780K+ users on ‘Santa’, Riiid’s AI-based learning solution. 
