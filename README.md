@@ -71,4 +71,38 @@ Best Score : 0.762
     - lr: 0.0175   LB 0.753
     - lr: 0.001    LB 
 
+# Evaluation
+Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target.
+
+## How to Use ROC Curves and Precision-Recall Curves for Classification in Python
+https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/
+
+
+## Articles
+
+### Receiver operating characteristic
+https://en.wikipedia.org/wiki/Receiver_operating_characteristic
+
+### Sensitivity and specificity
+https://en.wikipedia.org/wiki/Sensitivity_and_specificity
+
+### Precision and recall
+https://en.wikipedia.org/wiki/Precision_and_recall
+
+### Information retrieval
+https://en.wikipedia.org/wiki/Information_retrieval
+
+### F-score
+https://en.wikipedia.org/wiki/F-score
+
+### ROC and precision-recall with imbalanced datasets
+https://classeval.wordpress.com/simulation-analysis/roc-and-precision-recall-with-imbalanced-datasets/
+
+
+
+
+
+
+
+
 
