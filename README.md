@@ -26,10 +26,12 @@ Established in 2020, EdNet is the largest publicly available dataset in the glob
 Riiid’s mission through EdNet is to drive advancement of cutting-edge AI education technology and advance the industry as a whole. We believe that this initiative will help make optimized, personalized, and thus the most efficient education available to every learner in the world.
 
 
-### Paper:
-EdNet: A Large-Scale Hierarchical Dataset in Education: 
-
+## Paper:
+###EdNet: A Large-Scale Hierarchical Dataset in Education: 
 https://arxiv.org/pdf/1912.03072.pdf
+
+### SAINT+: Integrating Temporal Features for EdNet Correctness Prediction
+https://arxiv.org/pdf/2010.12042.pdf
 
 
 ### GitHub:
