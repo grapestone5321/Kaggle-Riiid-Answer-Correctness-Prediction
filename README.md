@@ -17,7 +17,7 @@ You will pair your machine learning skills using Riiid’s EdNet data.
 ## Evaluation
 Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target.
 
-
+-------
 
 ## EdNet
 
@@ -25,6 +25,16 @@ Established in 2020, EdNet is the largest publicly available dataset in the glob
 
 Riiid’s mission through EdNet is to drive advancement of cutting-edge AI education technology and advance the industry as a whole. We believe that this initiative will help make optimized, personalized, and thus the most efficient education available to every learner in the world.
 
+### EdNet: A Large-Scale Hierarchical Dataset in Education
+http://ednet-leaderboard.s3-website-ap-northeast-1.amazonaws.com/
+
+- What is EdNet?
+
+EdNet is the dataset of all student-system interactions collected over 2 years by Santa a multi-platform AI tutoring service with more than 780K users in Korea available through Android, iOS and web.
+
+In EdNet, there are four datasets named KT1, KT2, KT3, and KT4 with different extents. In this challenge, we only use EdNet-KT1 datasets consist of students’ question-solving logs, which is the most basic and fundamental information that can be used by various deep-learning knowledge tracing models.
+
+-------
 
 ## Paper:
 ### EdNet: A Large-Scale Hierarchical Dataset in Education: 
@@ -33,9 +43,20 @@ https://arxiv.org/pdf/1912.03072.pdf
 ### SAINT+: Integrating Temporal Features for EdNet Correctness Prediction
 https://arxiv.org/pdf/2010.12042.pdf
 
+### A Self-Attentive model for Knowledge Tracing
+https://arxiv.org/pdf/1907.06837.pdf
 
-### GitHub:
+### Creating A Neural Pedagogical Agent by Jointly Learning to Review and Assess
+https://arxiv.org/pdf/1906.10910.pdf
+
+
+-------
+
+## GitHub:
 https://github.com/riiid/ednet
+
+
+-------
 
 
 ## Progress
