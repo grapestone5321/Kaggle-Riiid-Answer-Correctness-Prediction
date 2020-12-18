@@ -14,8 +14,38 @@ In this competition, your challenge is to create algorithms for "Knowledge Traci
 
 You will pair your machine learning skills using Riiid’s EdNet data.
 
-## Evaluation
+
+-------
+
+# Evaluation
 Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target.
+
+## How to Use ROC Curves and Precision-Recall Curves for Classification in Python
+https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/
+
+
+## Articles
+
+### Receiver operating characteristic
+https://en.wikipedia.org/wiki/Receiver_operating_characteristic
+
+### Sensitivity and specificity
+https://en.wikipedia.org/wiki/Sensitivity_and_specificity
+
+### Precision and recall
+https://en.wikipedia.org/wiki/Precision_and_recall
+
+### Information retrieval
+https://en.wikipedia.org/wiki/Information_retrieval
+
+### F-score
+https://en.wikipedia.org/wiki/F-score
+
+### ROC and precision-recall with imbalanced datasets
+https://classeval.wordpress.com/simulation-analysis/roc-and-precision-recall-with-imbalanced-datasets/
+
+
+-------
 
 -------
 
@@ -25,14 +55,15 @@ Established in 2020, EdNet is the largest publicly available dataset in the glob
 
 Riiid’s mission through EdNet is to drive advancement of cutting-edge AI education technology and advance the industry as a whole. We believe that this initiative will help make optimized, personalized, and thus the most efficient education available to every learner in the world.
 
-### EdNet: A Large-Scale Hierarchical Dataset in Education
-http://ednet-leaderboard.s3-website-ap-northeast-1.amazonaws.com/
-
-- What is EdNet?
+### What is EdNet?
 
 EdNet is the dataset of all student-system interactions collected over 2 years by Santa a multi-platform AI tutoring service with more than 780K users in Korea available through Android, iOS and web.
 
 In EdNet, there are four datasets named KT1, KT2, KT3, and KT4 with different extents. In this challenge, we only use EdNet-KT1 datasets consist of students’ question-solving logs, which is the most basic and fundamental information that can be used by various deep-learning knowledge tracing models.
+
+### EdNet: A Large-Scale Hierarchical Dataset in Education
+http://ednet-leaderboard.s3-website-ap-northeast-1.amazonaws.com/
+
 
 -------
 
@@ -95,39 +126,9 @@ Best Score : 0.762
     - lr: 0.001    LB 
 
 
--------
-
-# Evaluation
-Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target.
-
-## How to Use ROC Curves and Precision-Recall Curves for Classification in Python
-https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/
-
-
-## Articles
-
-### Receiver operating characteristic
-https://en.wikipedia.org/wiki/Receiver_operating_characteristic
-
-### Sensitivity and specificity
-https://en.wikipedia.org/wiki/Sensitivity_and_specificity
-
-### Precision and recall
-https://en.wikipedia.org/wiki/Precision_and_recall
-
-### Information retrieval
-https://en.wikipedia.org/wiki/Information_retrieval
-
-### F-score
-https://en.wikipedia.org/wiki/F-score
-
-### ROC and precision-recall with imbalanced datasets
-https://classeval.wordpress.com/simulation-analysis/roc-and-precision-recall-with-imbalanced-datasets/
 
 
 -------
-
-
 
 
 
