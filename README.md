@@ -71,6 +71,9 @@ Best Score : 0.762
     - lr: 0.0175   LB 0.753
     - lr: 0.001    LB 
 
+
+-------
+
 # Evaluation
 Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target.
 
@@ -99,7 +102,7 @@ https://en.wikipedia.org/wiki/F-score
 https://classeval.wordpress.com/simulation-analysis/roc-and-precision-recall-with-imbalanced-datasets/
 
 
-
+-------
 
 
 
