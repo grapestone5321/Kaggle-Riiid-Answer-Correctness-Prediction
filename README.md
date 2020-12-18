@@ -79,6 +79,11 @@ https://arxiv.org/pdf/1907.06837.pdf
 https://arxiv.org/pdf/1906.10910.pdf
 
 
+### Towards an Appropriate Query, Key, and Value Computation for Knowledge Tracing
+https://arxiv.org/pdf/2002.07033.pdf
+
+
+
 -------
 
 ## GitHub:
