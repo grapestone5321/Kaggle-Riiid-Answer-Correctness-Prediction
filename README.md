@@ -135,6 +135,10 @@ Best Score : 0.762
 
 -------
 
+## Riiid! SAKT Model - Inference - Public
+https://www.kaggle.com/manikanthr5/riiid-sakt-model-inference-public
 
+## Riiid! SAKT Model - Training - Public
+https://www.kaggle.com/manikanthr5/riiid-sakt-model-training-public
 
 
