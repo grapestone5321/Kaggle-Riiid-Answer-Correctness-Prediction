@@ -95,10 +95,6 @@ https://github.com/riiid/ednet
 -------
 
 
-## Progress
-
-Best Score : 0.762
-
 
 ## Modeling
 
@@ -141,4 +137,32 @@ https://www.kaggle.com/manikanthr5/riiid-sakt-model-inference-public
 ## Riiid! SAKT Model - Training - Public
 https://www.kaggle.com/manikanthr5/riiid-sakt-model-training-public
 
+-------
+
+## Riiid LGBM bagging2 + SAKT =0.781
+https://www.kaggle.com/ammarnassanalhajali/riiid-lgbm-bagging2-sakt-0-781
+
+### Combining of SAKT with Riiid LGBM bagging2 then remove some features
+
+### Source Kernels:
+
+- SAKT + Riiid LGBM bagging2 LB 0.780
+
+https://www.kaggle.com/leadbest/sakt-riiid-lgbm-bagging2
+
+- SAKT with Randomization & State Updates LB0.771 
+
+https://www.kaggle.com/leadbest/sakt-with-randomization-state-updates
+
+- Riiid! LGBM bagging2 LB0.772 
+
+https://www.kaggle.com/zephyrwang666/riiid-lgbm-bagging2
+
+-------
+
+## Progress
+
+Best Score : 0.781
+
+-------
 
