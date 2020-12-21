@@ -169,7 +169,7 @@ Best Score : 0.781
 ## learning_rate: defaule=0.05
 Train: params = {
 
-     learning_rate = 0.05:     #LB 0.781   ##ver2
-     learning_rate = 0.005:    #LB         ##ver3
+     learning_rate = 0.05:     #LB 0.781                ##ver2
+     learning_rate = 0.005:    #LB error (>9hrs CPU)    ##ver3
      
      
