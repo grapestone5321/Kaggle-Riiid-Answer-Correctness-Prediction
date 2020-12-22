@@ -174,3 +174,7 @@ Train: params = {
      learning_rate = 0.005:    #LB error (>9hrs CPU)    ##ver3
      
      
+# SAKT with State Updates:
+
+     epochs = 20:  #LB 0.765               ##ver3
+     epochs = 40:  #LB 0.758               ##ver3
