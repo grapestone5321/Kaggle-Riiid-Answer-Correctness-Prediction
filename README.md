@@ -101,6 +101,9 @@ https://github.com/riiid/ednet
 ### Pytorch Implementation of "A Self-Attentive model for Knowledge Tracing" 
 https://arxiv.org/abs/1907.06837.
 
+### arshadshk/SAKT-pytorch
+https://github.com/arshadshk/SAKT-pytorch
+
 
 
 ## Modeling
