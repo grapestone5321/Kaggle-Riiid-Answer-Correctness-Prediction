@@ -92,6 +92,12 @@ https://arxiv.org/pdf/2002.07033.pdf
 ### Layer Normalization
 https://www.cs.utoronto.ca/~hinton/absps/LayerNormalization.pdf
 
+
+### Knowledge Tracing with Sequential Key-Value Memory Networks
+https://arxiv.org/pdf/1910.13197.pdf
+
+
+
 -------
 
 ## GitHub:
