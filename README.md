@@ -86,7 +86,11 @@ https://arxiv.org/pdf/1906.10910.pdf
 ### Towards an Appropriate Query, Key, and Value Computation for Knowledge Tracing
 https://arxiv.org/pdf/2002.07033.pdf
 
+-------
 
+## Paper2:
+### Layer Normalization
+https://www.cs.utoronto.ca/~hinton/absps/LayerNormalization.pdf
 
 -------
 
