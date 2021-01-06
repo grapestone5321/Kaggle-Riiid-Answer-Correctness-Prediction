@@ -96,6 +96,14 @@ https://www.cs.utoronto.ca/~hinton/absps/LayerNormalization.pdf
 ### Knowledge Tracing with Sequential Key-Value Memory Networks
 https://arxiv.org/pdf/1910.13197.pdf
 
+## Paper3:
+
+### Attention Is All You Need
+https://arxiv.org/pdf/1706.03762.pdf
+
+
+### NEURAL MACHINE TRANSLATION BY JOINTLY LEARNING TO ALIGN AND TRANSLATE
+https://arxiv.org/pdf/1409.0473.pdf
 
 
 -------
@@ -191,22 +199,33 @@ https://www.kaggle.com/manikanthr5/riiid-sakt-model-inference-public
 
 ### MAX_SEQ: default = 100
 
-     MAX_SEQ =  90:  #LB 0.766    ##ver3
+     MAX_SEQ =  90:  #LB 0.766 (RuntimeError)   ##ver3
      MAX_SEQ = 100:  #LB 0.774    ##ver1
-     MAX_SEQ = 110:  #LB 0.767    ##ver4
-     MAX_SEQ = 120:  #LB 0.768    ##ver5
-     MAX_SEQ = 160:  #LB 0.767    ##ver2
+     MAX_SEQ = 110:  #LB 0.767 (RuntimeError)   ##ver4
+     MAX_SEQ = 120:  #LB 0.768 (RuntimeError)   ##ver5
+     MAX_SEQ = 160:  #LB 0.767 (RuntimeError)   ##ver2
 
 -------
 
-## learning_rate: defaule=0.05
+## Riiid LGBM bagging2 + SAKT =0.781
+https://www.kaggle.com/ammarnassanalhajali/riiid-lgbm-bagging2-sakt-0-781
+
+### learning_rate: defaule=0.05
 Train: params = {
 
      learning_rate = 0.05:     #LB 0.781                ##ver2
      learning_rate = 0.005:    #LB error (>9hrs CPU)    ##ver3
      
-     
-# SAKT with State Updates:
+-------
+
+## SAKT with Randomization & State Updates
+https://www.kaggle.com/leadbest/sakt-with-randomization-state-updates
 
      epochs = 20:  #LB 0.765               ##ver3
-     epochs = 40:  #LB 0.758               ##ver3
+     epochs = 40:  #LB 0.758               ##ver4
+     
+     
+-------
+
+
+     
