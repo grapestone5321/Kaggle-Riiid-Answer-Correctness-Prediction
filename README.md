@@ -189,7 +189,7 @@ Best Score : 0.781
 ## Riiid! SAKT Model - Inference - Public
 https://www.kaggle.com/manikanthr5/riiid-sakt-model-inference-public
 
-### #MAX_SEQ: default = 100
+### MAX_SEQ: default = 100
 
      MAX_SEQ =  90:  #LB 0.766    ##ver3
      MAX_SEQ = 100:  #LB 0.774    ##ver1
