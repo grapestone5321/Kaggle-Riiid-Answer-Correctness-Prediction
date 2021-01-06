@@ -199,7 +199,7 @@ https://www.kaggle.com/manikanthr5/riiid-sakt-model-inference-public
 ### MAX_SEQ: default = 100
 
      MAX_SEQ =  90:  #LB 0.766 (RuntimeError)   ##ver3
-     MAX_SEQ = 100:  #LB 0.774    ##ver1
+     MAX_SEQ = 100:  #LB 0.774                  ##ver1
      MAX_SEQ = 110:  #LB 0.767 (RuntimeError)   ##ver4
      MAX_SEQ = 120:  #LB 0.768 (RuntimeError)   ##ver5
      MAX_SEQ = 160:  #LB 0.767 (RuntimeError)   ##ver2
