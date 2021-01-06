@@ -127,6 +127,9 @@ https://github.com/arshadshk/SAKT-pytorch
 ## Modeling
 
 ### LGBM
+## SAKT with Randomization & State Updates
+https://www.kaggle.com/leadbest/sakt-with-randomization-state-updates
+
 
     import lightgbm as lgb
 
@@ -149,10 +152,6 @@ https://github.com/arshadshk/SAKT-pytorch
         num_boost_round=10000,
         early_stopping_rounds=12
      )
-
-### 'learning_rate': 
-    - lr: 0.0175   LB 0.753
-    - lr: 0.001    LB 
 
 
 
@@ -221,11 +220,18 @@ Train: params = {
 ## SAKT with Randomization & State Updates
 https://www.kaggle.com/leadbest/sakt-with-randomization-state-updates
 
-     epochs = 20:  #LB 0.765               ##ver3
-     epochs = 40:  #LB 0.758               ##ver4
+     epochs = 20:  #LB 0.765   ##ver3
+     epochs = 40:  #LB 0.758   ##ver4
      
      
 -------
 
+## Expanding on Simple LGBM
+https://www.kaggle.com/dwit392/expanding-on-simple-lgbm
 
-     
+     lr: 0.1      LB 0.753  ##ver3
+     lr: 0.0175   LB 0.753  ##ver1
+     lr: 0.001    LB 0.752  ##ver2
+
+--------
+
