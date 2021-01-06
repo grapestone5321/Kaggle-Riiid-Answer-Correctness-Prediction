@@ -204,6 +204,21 @@ https://www.kaggle.com/manikanthr5/riiid-sakt-model-inference-public
      MAX_SEQ = 120:  #LB 0.768 (RuntimeError)   ##ver5
      MAX_SEQ = 160:  #LB 0.767 (RuntimeError)   ##ver2
 
+
+### self.multi_att = nn.MultiheadAttention(embed_dim=embed_dim, num_heads=8, dropout=0.2)
+### Dropout: default=(0.2)
+
+        self.dropout = nn.Dropout(0.2)  #LB 0.774:   ##vere1   #default
+        self.dropout = nn.Dropout(0.5)  #LB          ##ver10
+        self.dropout = nn.Dropout(0.8)  #LB          ##ver11
+        
+### self.layer_normal = nn.LayerNorm(embed_dim, eps=1e-05, elementwise_affine=True) 
+### eps: default=1e-05     
+        
+        self.layer_normal = nn.LayerNorm(embed_dim, eps=1e-05, elementwise_affine=True)  #LB 0.774:    ##vere1  #default
+        self.layer_normal = nn.LayerNorm(embed_dim, eps=1e-03, elementwise_affine=True)  #LB           ##ver8
+        self.layer_normal = nn.LayerNorm(embed_dim, eps=1e-07, elementwise_affine=True)  #LB           ##ver9
+
 -------
 
 ## Riiid LGBM bagging2 + SAKT =0.781
