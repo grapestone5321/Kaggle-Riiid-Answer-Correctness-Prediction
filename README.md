@@ -105,6 +105,20 @@ https://arxiv.org/pdf/1706.03762.pdf
 ### NEURAL MACHINE TRANSLATION BY JOINTLY LEARNING TO ALIGN AND TRANSLATE
 https://arxiv.org/pdf/1409.0473.pdf
 
+### Massive Exploration of Neural Machine Translation Architectures
+https://arxiv.org/pdf/1703.03906.pdf
+
+### Long Short-Term Memory-Networks for Machine Reading
+https://arxiv.org/pdf/1601.06733.pdf
+
+
+### Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation
+https://arxiv.org/pdf/1406.1078.pdf
+
+
+### Xception: Deep Learning with Depthwise Separable Convolutions
+https://arxiv.org/pdf/1610.02357.pdf
+
 
 -------
 
