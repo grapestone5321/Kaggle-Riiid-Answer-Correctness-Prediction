@@ -208,16 +208,16 @@ https://www.kaggle.com/manikanthr5/riiid-sakt-model-inference-public
 ### self.multi_att = nn.MultiheadAttention(embed_dim=embed_dim, num_heads=8, dropout=0.2)
 ### Dropout: default=(0.2)
 
-        self.dropout = nn.Dropout(0.2)  #LB 0.774:   ##vere1   #default
-        self.dropout = nn.Dropout(0.5)  #LB          ##ver10
-        self.dropout = nn.Dropout(0.8)  #LB          ##ver11
+     self.dropout = nn.Dropout(0.2)  #LB 0.774:   ##vere1   #default
+     self.dropout = nn.Dropout(0.5)  #LB 0.774:   ##ver10
+     self.dropout = nn.Dropout(0.8)  #LB 0.774:   ##ver11
         
 ### self.layer_normal = nn.LayerNorm(embed_dim, eps=1e-05, elementwise_affine=True) 
 ### eps: default=1e-05     
         
-        self.layer_normal = nn.LayerNorm(embed_dim, eps=1e-05, elementwise_affine=True)  #LB 0.774:    ##vere1  #default
-        self.layer_normal = nn.LayerNorm(embed_dim, eps=1e-03, elementwise_affine=True)  #LB           ##ver8
-        self.layer_normal = nn.LayerNorm(embed_dim, eps=1e-07, elementwise_affine=True)  #LB           ##ver9
+     self.layer_normal = nn.LayerNorm(embed_dim, eps=1e-05, elementwise_affine=True)  #LB 0.774:    ##vere1  #default
+     self.layer_normal = nn.LayerNorm(embed_dim, eps=1e-03, elementwise_affine=True)  #LB 0.774:    ##ver8
+     self.layer_normal = nn.LayerNorm(embed_dim, eps=1e-07, elementwise_affine=True)  #LB 0.774:    ##ver9
 
 -------
 
