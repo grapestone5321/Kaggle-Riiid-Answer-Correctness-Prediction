@@ -267,3 +267,13 @@ https://www.kaggle.com/dwit392/expanding-on-simple-lgbm
 
 --------
 
+## Fork of Riiid LGBM bagging2.1 471152
+https://www.kaggle.com/julianguo/fork-of-riiid-lgbm-bagging2-1-471152
+
+     test_df[target]=0.5*np.array(outs)+0.5*np.array(o2)  LB 0.783:  ##ver1
+     test_df[target]=0.6*np.array(outs)+0.4*np.array(o2)  LB      :  ##ver2
+     test_df[target]=0.4*np.array(outs)+0.6*np.array(o2)  LB      :  ##ver3
+
+
+
+-------
