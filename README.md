@@ -204,9 +204,12 @@ https://www.kaggle.com/zephyrwang666/riiid-lgbm-bagging2
 
 -------
 
-## Progress
 
-Best Score : 0.781
+ 
+## Progress
+### Current Best LB Score: 0.783  
+### Private Score: 0.785
+
 
 -------
 
