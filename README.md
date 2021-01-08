@@ -274,9 +274,15 @@ https://www.kaggle.com/dwit392/expanding-on-simple-lgbm
 https://www.kaggle.com/julianguo/fork-of-riiid-lgbm-bagging2-1-471152
 
      test_df[target]=0.5*np.array(outs)+0.5*np.array(o2)  LB 0.783:  ##ver1
-     test_df[target]=0.6*np.array(outs)+0.4*np.array(o2)  LB      :  ##ver2
-     test_df[target]=0.4*np.array(outs)+0.6*np.array(o2)  LB      :  ##ver3
+     test_df[target]=0.6*np.array(outs)+0.4*np.array(o2)  LB 0.783:  ##ver2
+     test_df[target]=0.4*np.array(outs)+0.6*np.array(o2)  LB 0.783:  ##ver3
 
 
-
+### clfs = list()
+     params = {
+     'learning_rate': 0.5     LB 0.782   ##ver8     
+     'learning_rate': 0.05    LB 0.783   ##ver7
+     'learning_rate': 0.005   LB 0.774   ##ver9
+     
+     
 -------
